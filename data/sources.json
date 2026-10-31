@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/alex1770/wordle",
+  "commit": "8fd3f1bdf884ff6757c24ad1227dc561fab7787d",
+  "files": {
+    "solutions.txt": {
+      "url": "https://raw.githubusercontent.com/alex1770/wordle/8fd3f1bdf884ff6757c24ad1227dc561fab7787d/wordlist_hidden",
+      "sha256": "3e443482b78dee0f6f8de4f74dbb67537db781524279b1d40ca3353c592b03ce"
+    },
+    "core_solutions.txt": {
+      "url": "https://raw.githubusercontent.com/alex1770/wordle/8fd3f1bdf884ff6757c24ad1227dc561fab7787d/wordlist_nyt20220830_hidden",
+      "sha256": "c495f6cbc36475358a89e30ac16bd5c0c05073c8c7647bb6c35dd01f7bae6e32"
+    },
+    "accepted_guesses.txt": {
+      "url": "https://raw.githubusercontent.com/alex1770/wordle/8fd3f1bdf884ff6757c24ad1227dc561fab7787d/wordlist_all",
+      "sha256": "ba86911aea83d038d53c0999fe6cbe310c8f59d2b79626c73bd0cd0773adc320"
+    },
+    "LICENSE-wordlists.txt": {
+      "url": "https://raw.githubusercontent.com/alex1770/wordle/8fd3f1bdf884ff6757c24ad1227dc561fab7787d/LICENSE",
+      "sha256": "034490a63dfdaa13787e46e0e38966e009b1a31ece512d616b2dac6be5b97df5"
+    }
+  }
+}

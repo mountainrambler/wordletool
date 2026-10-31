@@ -1,0 +1,37 @@
+<style>
+.stMainBlockContainer {max-width: 690px; padding-top: 2.5rem; padding-bottom: 2rem;}
+h1 {font-size: clamp(2.25rem, 7vw, 3.7rem) !important; line-height: 1.07 !important; letter-spacing: -0.055em; font-weight: 750 !important; max-width: 580px;}
+h2, h3 {letter-spacing: -0.025em;}
+.eyebrow {font-size: .65rem; letter-spacing: .13em; font-weight: 700; color: #526758; margin-bottom: .8rem;}
+.eyebrow span {color: #b38e38; letter-spacing: .12em; margin-right: .5rem;}
+.score-strip {display: flex; gap: 2.5rem; padding: 1.15rem 0 1.35rem; border-top: 1px solid #dce0d5; border-bottom: 1px solid #dce0d5; margin: .3rem 0 .7rem;}
+.score-strip div {display: flex; flex-direction: column; gap: .1rem;}
+.score-strip strong {font-size: 1.8rem; letter-spacing: -.05em; line-height: 1.2;}
+.score-strip span {font-size: .75rem; color: #526758;}
+.stButton button, .stDownloadButton button {min-height: 46px; border-radius: 10px;}
+.stTextInput input {font-size: 1rem; min-height: 46px;}
+.st-key-feedback [data-testid="stHorizontalBlock"] {flex-wrap: nowrap !important; gap: .45rem !important;}
+.st-key-feedback [data-testid="stColumn"] {flex: 1 1 0 !important; min-width: 0 !important; width: 0 !important;}
+.st-key-feedback button {height: 64px; padding: .1rem !important; border: none; border-radius: 7px;}
+.st-key-feedback button p {font-size: 1.2rem; font-weight: 700; white-space: nowrap;}
+[class*="st-key-tile_gray_"] button {background: #626c65 !important; color: white !important;}
+[class*="st-key-tile_yellow_"] button {background: #94731d !important; color: white !important;}
+[class*="st-key-tile_green_"] button {background: #6aaa64 !important; color: #12331b !important;}
+[class*="st-key-tile_unset_"] button {background: #eeeee6 !important; color: #526758 !important; outline: 1px dashed #a6afa4; outline-offset: -2px;}
+.st-key-feedback button:focus-visible {outline: 3px solid #202e26 !important; outline-offset: 3px;}
+.board {display: grid; gap: 7px; margin: .6rem 0; max-width: 370px;}
+.board-row {display: grid; grid-template-columns: 18px repeat(5, 1fr); gap: 6px; align-items: center;}
+.row-number {color: #6a796e; font-size: .75rem;}
+.board-tile {height: 52px; display: flex; align-items: center; justify-content: center; gap: 3px; border-radius: 5px; color: white; font-size: 1.25rem; font-weight: 700;}
+.board-tile small {font-size: .65rem;}
+.gray {background: #626c65;}.yellow {background: #94731d;}.green {background: #6aaa64; color: #12331b;}
+.word-cloud {display: flex; flex-wrap: wrap; gap: .5rem; margin: .7rem 0;}
+.word-cloud span {font-family: ui-monospace, monospace; font-size: .9rem; padding: .35rem .5rem; background: #eeeee6; border-radius: 5px; letter-spacing: .08em;}
+@media (max-width: 480px) {
+  .stMainBlockContainer {padding: 1.1rem 1rem 2rem;}
+  .eyebrow {font-size: .56rem; letter-spacing: .08em;}
+  .st-key-feedback button {height: 56px;}
+  .st-key-feedback button p {font-size: 1rem;}
+  .score-strip {gap: 2rem;}
+}
+</style>
